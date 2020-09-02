@@ -1,0 +1,17 @@
+.navbar {
+  height: 56px;
+  display: flex;
+  flex-direction: row;
+}
+.spacer {
+  flex: 1;
+}
+.list {
+  display: flex;
+  flex-direction: row;
+  margin: 1rem;
+}
+
+i {
+  padding: 0px 20px;
+}
