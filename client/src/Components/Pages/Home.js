@@ -1,6 +1,7 @@
 import React from "react";
-import Contacts from "../../Contacts/Contacts";
-import ContactForm from "../../Contacts/ContactForm";
+import Contacts from "../Contacts/Contacts";
+import ContactForm from "../Contacts/ContactForm";
+import ContactFilter from "../Contacts/ContactFilter";
 
 const Home = () => {
   return (
@@ -12,10 +13,11 @@ const Home = () => {
           justifyContent: "center",
         }}
       >
-        <div className='mr4'>
+        <div className='mr4 container'>
           <ContactForm />
         </div>
         <div className='ml4'>
+          <ContactFilter />
           <Contacts />
         </div>
       </div>
