@@ -4,3 +4,5 @@ node_modules/
 
 /client/build
 lib/
+# Local Netlify folder
+.netlify
